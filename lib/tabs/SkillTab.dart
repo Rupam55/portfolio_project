@@ -38,7 +38,7 @@ class _SkillTabState extends State<SkillTab> {
                     }),
                   child: Padding(
                     padding: const EdgeInsets.all(10.0),
-                    child: SkillTile("DSA", "https://www.stopstalk.com/user/profile/rv6023"),
+                    child: SkillTile("DSA", "https://www.stopstalk.com/user/profile/rv6023","icons/dsaIcon.png"),
                   ),
                 ),
                 GestureDetector(
@@ -48,7 +48,7 @@ class _SkillTabState extends State<SkillTab> {
                   }),
                   child: Padding(
                     padding: const EdgeInsets.all(10.0),
-                    child: SkillTile("Competetive Programming", "https://www.stopstalk.com/user/profile/rv6023"),
+                    child: SkillTile("Competetive Programming", "https://www.stopstalk.com/user/profile/rv6023","icons/coding.png"),
                   ),
                 ),
                 GestureDetector(
@@ -58,7 +58,7 @@ class _SkillTabState extends State<SkillTab> {
                   }),
                   child: Padding(
                     padding: const EdgeInsets.all(10.0),
-                    child: SkillTile("Flutter", "https://github.com/rv299792458"),
+                    child: SkillTile("Flutter", "https://github.com/rv299792458","icons/flutterIcon.png"),
                   ),
                 ),
                 GestureDetector(
@@ -68,7 +68,7 @@ class _SkillTabState extends State<SkillTab> {
                   }),
                   child: Padding(
                     padding: const EdgeInsets.all(10.0),
-                    child: SkillTile("Java Programming", "https://www.hackerrank.com/rahul6023"),
+                    child: SkillTile("Java Programming", "https://www.hackerrank.com/rahul6023","icons/javaIcon.png"),
                   ),
                 ),
 

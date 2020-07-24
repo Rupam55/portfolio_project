@@ -29,7 +29,7 @@ Material ProjectTile(String name,String url,String image)
                 icon: Icon(
                   Icons.add_to_home_screen,
                 ),
-                label: Text("Related Link"),
+                label: Text("Related Link11"),
                 onPressed: ()=>html.window.open(url, "Rahul"),
               )
             ],

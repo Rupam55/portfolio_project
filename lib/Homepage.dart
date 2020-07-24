@@ -25,7 +25,10 @@ class _HomepageState extends State<Homepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text("Hire Me!",style: TextStyle(fontFamily: "LilyScriptOne",fontWeight: FontWeight.w400,fontSize: 25),)
+      ),
       body: Center(
         child: tabWidgets.elementAt(_selectedIndex),
       ),

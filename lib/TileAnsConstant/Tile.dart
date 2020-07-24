@@ -3,7 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'dart:html' as html;
 
-Material SkillTile(String name,String url)
+Material SkillTile(String name,String url,String logo)
 {
 //  final String name = "";
 //  final String url = "https://github.com/rv299792458";
@@ -27,7 +27,7 @@ return Material(
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          Image.asset("code.png",
+          Image.asset(logo,
             scale: 5,
 
           ),

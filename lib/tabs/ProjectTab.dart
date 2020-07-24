@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio2/TileAnsConstant/Tile.dart';
-import 'package:portfolio2/TileAnsConstant/InfoTab.dart';
+import 'package:portfolio2/TileAnsConstant/InfoTabProject.dart';
 int index=0;
 class ProjectTab extends StatefulWidget {
   @override
@@ -38,7 +38,7 @@ class _ProjectTabState extends State<ProjectTab> {
                       }),
                       child: Padding(
                         padding: const EdgeInsets.all(10.0),
-                        child: SkillTile("DSA1", "https://github.com/rv299792458"),
+                        child: SkillTile("Quiz Application", "https://github.com/rv299792458","icons/javaIcon.png"),
                       ),
                     ),
                     GestureDetector(
@@ -48,7 +48,7 @@ class _ProjectTabState extends State<ProjectTab> {
                       }),
                       child: Padding(
                         padding: const EdgeInsets.all(10.0),
-                        child: SkillTile("DSA1", "https://github.com/rv299792458"),
+                        child: SkillTile("CoronaCount", "https://github.com/rv299792458","icons/flutterIcon.png"),
                       ),
                     ),
                     GestureDetector(
@@ -58,7 +58,7 @@ class _ProjectTabState extends State<ProjectTab> {
                       }),
                       child: Padding(
                         padding: const EdgeInsets.all(10.0),
-                        child: SkillTile("DSA1", "https://github.com/rv299792458"),
+                        child: SkillTile("FlashChat", "https://github.com/rv299792458","icons/flutterIcon.png"),
                       ),
                     ),
                     GestureDetector(
@@ -68,36 +68,17 @@ class _ProjectTabState extends State<ProjectTab> {
                       }),
                       child: Padding(
                         padding: const EdgeInsets.all(10.0),
-                        child: SkillTile("DSA1", "https://github.com/rv299792458"),
+                        child: SkillTile("Clima", "https://github.com/rv299792458","icons/flutterIcon.png"),
                       ),
                     ),
-                    GestureDetector(
 
-                      onTap: ()=>setState((){
-                        index=1;
-                      }),
-                      child: Padding(
-                        padding: const EdgeInsets.all(10.0),
-                        child: SkillTile("DSA1", "https://github.com/rv299792458"),
-                      ),
-                    ),
-                    GestureDetector(
-
-                      onTap: ()=>setState((){
-                        index=1;
-                      }),
-                      child: Padding(
-                        padding: const EdgeInsets.all(10.0),
-                        child: SkillTile("DSA1", "https://github.com/rv299792458"),
-                      ),
-                    ),
 
                   ],
                 ),
               ),
             ),
 
-            Expanded(flex:2,child: InfoTab(index)),
+            Expanded(flex:2,child: InfoTabProject(index)),
 
           ]
       ) ,
