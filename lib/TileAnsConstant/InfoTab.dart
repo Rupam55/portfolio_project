@@ -34,7 +34,7 @@ Material InfoTab(int index)
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Expanded(flex:1,child: Center(child: Namelist.elementAt(1))),
+            Expanded(flex:1,child: Center(child: Namelist.elementAt(index))),
             SizedBox(height: 30,),
             Expanded(flex:3,child: Imagelist.elementAt(index)),
             SizedBox(height: 30,),

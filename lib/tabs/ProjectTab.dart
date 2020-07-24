@@ -34,7 +34,7 @@ class _ProjectTabState extends State<ProjectTab> {
                     GestureDetector(
 
                       onTap: ()=>setState((){
-                        index=1;
+                        index=0;
                       }),
                       child: Padding(
                         padding: const EdgeInsets.all(10.0),
@@ -54,7 +54,7 @@ class _ProjectTabState extends State<ProjectTab> {
                     GestureDetector(
 
                       onTap: ()=>setState((){
-                        index=1;
+                        index=2;
                       }),
                       child: Padding(
                         padding: const EdgeInsets.all(10.0),
@@ -64,7 +64,7 @@ class _ProjectTabState extends State<ProjectTab> {
                     GestureDetector(
 
                       onTap: ()=>setState((){
-                        index=1;
+                        index=3;
                       }),
                       child: Padding(
                         padding: const EdgeInsets.all(10.0),

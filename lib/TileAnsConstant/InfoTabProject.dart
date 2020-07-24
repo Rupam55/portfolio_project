@@ -14,7 +14,7 @@ const List<Text> Textlist = [Text("You might not realise the efficiency while wo
 ];
 List<Widget> Imagelist=[Image.asset("projectimg/quiz2.png"),
   Image.asset("projectimg/CoronaCount2.png"),
-  Image.asset("projectimg/flashChat2.png"),
+  Image.asset("projectimg/flashChat1.png"),
   Image.asset("projectimg/clima1.png")];
 const List<Text> Linklist=[Text("You can add your link here",style: kInfoTextStyle,),
   Text("You can add your link here",style: kInfoTextStyle,),
@@ -35,7 +35,7 @@ Material InfoTabProject(int index)
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Expanded(flex:1,child: Center(child: Namelist.elementAt(1))),
+            Expanded(flex:1,child: Center(child: Namelist.elementAt(index))),
             SizedBox(height: 30,),
             Expanded(flex:3,child: Imagelist.elementAt(index)),
             SizedBox(height: 30,),
