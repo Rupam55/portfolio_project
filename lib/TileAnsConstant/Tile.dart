@@ -16,7 +16,7 @@ return Material(
 //    height: 200,
 //    width: 450,
     decoration: new BoxDecoration(
-      image: new DecorationImage(image: AssetImage("darkSkill.png"),
+      image: new DecorationImage(image: AssetImage("assets/darkSkill.png"),
       fit: BoxFit.fill
 
       )

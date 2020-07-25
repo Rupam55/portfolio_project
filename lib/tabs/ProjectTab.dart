@@ -38,7 +38,7 @@ class _ProjectTabState extends State<ProjectTab> {
                       }),
                       child: Padding(
                         padding: const EdgeInsets.all(10.0),
-                        child: SkillTile("Quiz Application", "https://github.com/rv299792458","icons/javaIcon.png"),
+                        child: SkillTile("Quiz Application", "https://github.com/rv299792458","assets/icons/javaIcon.png"),
                       ),
                     ),
                     GestureDetector(
@@ -48,7 +48,7 @@ class _ProjectTabState extends State<ProjectTab> {
                       }),
                       child: Padding(
                         padding: const EdgeInsets.all(10.0),
-                        child: SkillTile("CoronaCount", "https://github.com/rv299792458","icons/flutterIcon.png"),
+                        child: SkillTile("CoronaCount", "https://github.com/rv299792458","assets/icons/flutterIcon.png"),
                       ),
                     ),
                     GestureDetector(
@@ -58,7 +58,7 @@ class _ProjectTabState extends State<ProjectTab> {
                       }),
                       child: Padding(
                         padding: const EdgeInsets.all(10.0),
-                        child: SkillTile("FlashChat", "https://github.com/rv299792458","icons/flutterIcon.png"),
+                        child: SkillTile("FlashChat", "https://github.com/rv299792458","assets/icons/flutterIcon.png"),
                       ),
                     ),
                     GestureDetector(
@@ -68,7 +68,7 @@ class _ProjectTabState extends State<ProjectTab> {
                       }),
                       child: Padding(
                         padding: const EdgeInsets.all(10.0),
-                        child: SkillTile("Clima", "https://github.com/rv299792458","icons/flutterIcon.png"),
+                        child: SkillTile("Clima", "https://github.com/rv299792458","assets/icons/flutterIcon.png"),
                       ),
                     ),
 

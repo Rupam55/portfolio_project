@@ -47,7 +47,7 @@ class AboutTab extends StatelessWidget {
                     icon: SizedBox(
                       width: 20,
                       height: 20,
-                      child: Image.asset("github.png"),
+                      child: Image.asset("assets/github.png"),
                     ),
                     onPressed:()=> html.window.open("https://github.com/rv299792458", "Rahul"),
                   ),
@@ -56,7 +56,7 @@ class AboutTab extends StatelessWidget {
                     icon: SizedBox(
                       width: 20,
                       height: 20,
-                      child: Image.asset("linkedin.png"),
+                      child: Image.asset("assets/linkedin.png"),
                     ),
                     onPressed:()=> html.window.open("https://www.linkedin.com/in/rahulverma6023/", "Rahul"),
                   ),
@@ -65,7 +65,7 @@ class AboutTab extends StatelessWidget {
                     icon: SizedBox(
                       width: 20,
                       height: 20,
-                      child: Image.asset("instagram.png"),
+                      child: Image.asset("assets/instagram.png"),
                     ),
                     onPressed:()=> html.window.open("https://github.com/rv299792458", "Rahul"),
                   ),
@@ -74,7 +74,7 @@ class AboutTab extends StatelessWidget {
                     icon: SizedBox(
                       width: 20,
                       height: 20,
-                      child: Image.asset("medium.png"),
+                      child: Image.asset("assets/medium.png"),
                     ),
                     onPressed:()=> html.window.open("https://github.com/rv299792458", "Rahul"),
                   ),
@@ -90,7 +90,7 @@ class AboutTab extends StatelessWidget {
                     icon: SizedBox(
                       width: 40,
                       height: 20,
-                      child: Image.asset("twitter.png"),
+                      child: Image.asset("assets/twitter.png"),
                     ),
                     onPressed:()=> html.window.open("https://github.com/rv299792458", "Rahul"),
                   ),
@@ -99,7 +99,7 @@ class AboutTab extends StatelessWidget {
                     icon: SizedBox(
                       width: 40,
                       height: 20,
-                      child: Image.asset("facebook.png"),
+                      child: Image.asset("assets/facebook.png"),
                     ),
                     onPressed:()=> html.window.open("https://github.com/rv299792458", "Rahul"),
                   ),
@@ -108,7 +108,7 @@ class AboutTab extends StatelessWidget {
                     icon: SizedBox(
                       width: 40,
                       height: 20,
-                      child: Image.asset("code.png"),
+                      child: Image.asset("assets/code.png"),
                     ),
                     onPressed:()=> html.window.open("http://codeforces.com/profile/rv6023", "Rahul"),
                   ),
@@ -117,7 +117,7 @@ class AboutTab extends StatelessWidget {
                     icon: SizedBox(
                       width: 40,
                       height: 20,
-                      child: Image.asset("cchef.png"),
+                      child: Image.asset("assets/cchef.png"),
                     ),
                     onPressed:()=> html.window.open("https://www.codechef.com/users/rahul60231023", "Rahul"),
                   ),

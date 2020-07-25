@@ -11,10 +11,10 @@ const List<Text> Textlist = [Text("You might not realise the efficiency while wo
   Text("Java is one of the most popular programming languages used to create Web applications and platforms. It was designed for flexibility, allowing developers to write code that would run on any machine, regardless of architecture or platform.",style: kInfoTextStyle,),
 
 ];
- List<Widget> Imagelist=[Image.asset("skillimg/dsa.png"),
-   Image.asset("skillimg/cp.png"),
-   Image.asset("skillimg/flutter.png"),
-   Image.asset("skillimg/java.png")];
+ List<Widget> Imagelist=[Image.asset("assets/skillimg/dsa.png"),
+   Image.asset("assets/skillimg/cp.png"),
+   Image.asset("assets/skillimg/flutter.png"),
+   Image.asset("assets/skillimg/java.png")];
 const List<Text> Linklist=[Text("You can add your link here",style: kInfoTextStyle,),
   Text("You can add your link here",style: kInfoTextStyle,),
   Text("You can add your link here",style: kInfoTextStyle,),
