@@ -37,7 +37,7 @@ class _SkillMobileState extends State<SkillMobile> {
           index=0;
           }),
             child: Padding(
-          padding: const EdgeInsets.all(10.0),
+          padding: const EdgeInsets.all(6.0),
             child: SkillTile("DSA", "https://www.stopstalk.com/user/profile/rv6023","assets/icons/dsaIcon.png"),
           ),
           ),
@@ -48,8 +48,8 @@ class _SkillMobileState extends State<SkillMobile> {
           index=1;
           }),
             child: Padding(
-          padding: const EdgeInsets.all(10.0),
-            child: SkillTile("Competetive Programming", "https://www.stopstalk.com/user/profile/rv6023","assets/icons/coding.png"),
+          padding: const EdgeInsets.all(6.0),
+            child: SkillTile("C.P.", "https://www.stopstalk.com/user/profile/rv6023","assets/icons/coding.png"),
           ),
           ),
           GestureDetector(
@@ -59,7 +59,7 @@ class _SkillMobileState extends State<SkillMobile> {
           index=2;
           }),
             child: Padding(
-          padding: const EdgeInsets.all(10.0),
+          padding: const EdgeInsets.all(6.0),
             child: SkillTile("Flutter", "https://github.com/rv299792458","assets/icons/flutterIcon.png"),
           ),
           ),
@@ -70,7 +70,7 @@ class _SkillMobileState extends State<SkillMobile> {
           index=3;
           }),
             child: Padding(
-          padding: const EdgeInsets.all(10.0),
+          padding: const EdgeInsets.all(6.0),
             child: SkillTile("Java Programming", "https://www.hackerrank.com/rahul6023","assets/icons/javaIcon.png"),
           ),
           ),

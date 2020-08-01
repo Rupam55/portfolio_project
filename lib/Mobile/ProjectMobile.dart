@@ -34,7 +34,7 @@ class _ProjectMobileState extends State<ProjectMobile> {
             index=0;
             }),
             child: Padding(
-            padding: const EdgeInsets.all(10.0),
+            padding: const EdgeInsets.all(6.0),
             child: SkillTile("Quiz Application", "https://github.com/rv299792458","assets/icons/javaIcon.png"),
             ),
             ),
@@ -46,7 +46,7 @@ class _ProjectMobileState extends State<ProjectMobile> {
 //            Navigator.pop(context);
             }),
             child: Padding(
-            padding: const EdgeInsets.all(10.0),
+            padding: const EdgeInsets.all(6.0),
             child: SkillTile("CoronaCount", "https://github.com/rv299792458","assets/icons/flutterIcon.png"),
             ),
             ),
@@ -57,7 +57,7 @@ class _ProjectMobileState extends State<ProjectMobile> {
             index=2;
             }),
             child: Padding(
-            padding: const EdgeInsets.all(10.0),
+            padding: const EdgeInsets.all(6.0),
             child: SkillTile("FlashChat", "https://github.com/rv299792458","assets/icons/flutterIcon.png"),
             ),
             ),
@@ -68,7 +68,7 @@ class _ProjectMobileState extends State<ProjectMobile> {
             index=3;
             }),
             child: Padding(
-            padding: const EdgeInsets.all(10.0),
+            padding: const EdgeInsets.all(6.0),
             child: SkillTile("Clima", "https://github.com/rv299792458","assets/icons/flutterIcon.png"),
             ),
             ),

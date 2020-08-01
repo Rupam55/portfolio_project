@@ -12,7 +12,7 @@ class AboutTab extends StatelessWidget {
               CircleAvatar(
                 radius: 100,
                 //backgroundColor: Colors.blueAccent,
-                backgroundImage: Image.asset("assets/myAvatar.jpg").image,
+                backgroundImage: Image.asset("assets/myAvatar.jpg",scale: 2,).image,
               ),
               SizedBox(
                 height: 20,
