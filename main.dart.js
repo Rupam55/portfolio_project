@@ -44064,7 +44064,7 @@ F.xE.prototype={
 G:function(a,b){var s=null,r=X.a0Y(C.J)
 return new S.p5(new K.zw(K.NS(s),K.NS(new L.oD(s)),K.NS(new A.l4(s)),K.NS(new A.l4(s)),s),r,!1,s)}}
 M.uC.prototype={
-G:function(a,b){var s,r,q,p,o,n=null,m=K.a_4(U.bs("assets/myAvatar.jpg",n).c,100),l=T.aZ(n,20,n),k=L.bt("Rahul Verma",A.dy(n,n,C.jR,n,n,n,n,n,"LilyScriptOne",n,n,40,n,C.v,n,n,!0,n,n,n,n,n,n)),j=T.aZ(n,10,n),i=L.bt("Flutter  CP  DSA  Java ",A.dy(n,n,C.jR,n,n,n,n,n,n,n,n,20,n,n,n,n,!0,n,n,n,n,n,n)),h=T.aZ(n,30,n),g=L.bt("Github",n)
+G:function(a,b){var s,r,q,p,o,n=null,m=K.a_4(U.bs("assets/myAvatar.jpg",2).c,100),l=T.aZ(n,20,n),k=L.bt("Rahul Verma",A.dy(n,n,C.jR,n,n,n,n,n,"LilyScriptOne",n,n,40,n,C.v,n,n,!0,n,n,n,n,n,n)),j=T.aZ(n,10,n),i=L.bt("Flutter  CP  DSA  Java ",A.dy(n,n,C.jR,n,n,n,n,n,n,n,n,20,n,n,n,n,!0,n,n,n,n,n,n)),h=T.aZ(n,30,n),g=L.bt("Github",n)
 g=N.cH(T.aZ(U.bs("assets/github.png",n),20,20),g,new M.G4())
 s=L.bt("Linkedin",n)
 s=N.cH(T.aZ(U.bs("assets/linkedin.png",n),20,20),s,new M.G5())
