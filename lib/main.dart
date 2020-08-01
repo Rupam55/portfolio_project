@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio2/Homepage.dart';
-
+import 'package:responsive_builder/responsive_builder.dart';
+import 'package:portfolio2/Mobile/HomepageMobile.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -10,7 +11,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
-      home: Homepage(),
+      home: ScreenTypeLayout(
+          desktop: Homepage(),
+          tablet: Homepage(),
+          mobile:HomepageMobile(),
+
+      ),
     );
   }
 }
